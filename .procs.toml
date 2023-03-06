@@ -1,0 +1,108 @@
+[[columns]]
+kind = "Pid"
+style = "BrightCyan"
+numeric_search = true
+nonnumeric_search = false
+
+[[columns]]
+kind = "User"
+header = "USER"
+style = "BrightBlue"
+numeric_search = false
+nonnumeric_search = true
+
+[[columns]]
+kind = "Separator"
+style = "BrightBlack"
+numeric_search = false
+nonnumeric_search = false
+
+[[columns]]
+kind = "UsageCpu"
+style = "ByPercentage"
+numeric_search = false
+nonnumeric_search = false
+
+[[columns]]
+kind = "UsageMem"
+style = "ByPercentage"
+numeric_search = false
+nonnumeric_search = false
+
+[[columns]]
+kind = "Docker"
+header = "DOCK"
+style = "BrightCyan"
+numeric_search = false
+nonnumeric_search = true
+
+[[columns]]
+kind = "VmRss"
+header = "RAM"
+style = "ByUnit"
+numeric_search = false
+nonnumeric_search = false
+
+[[columns]]
+kind = "State"
+header = "S"
+style = "ByState"
+numeric_search = false
+nonnumeric_search = true
+align = "Center"
+
+[[columns]]
+kind = "Slot"
+style = "BrightBlue"
+numeric_search = true
+nonnumeric_search = false
+
+[[columns]]
+kind = "Slot"
+style = "BrightBlue"
+numeric_search = true
+nonnumeric_search = false
+
+[[columns]]
+kind = "Separator"
+style = "BrightBlack"
+numeric_search = false
+nonnumeric_search = false
+
+[[columns]]
+kind = "Command"
+header = "CMD"
+style = "White"
+numeric_search = false
+nonnumeric_search = true
+
+[style]
+header = "BrightWhite"
+unit = "BrightCyan"
+tree = "BrightBlack"
+
+[style.by_percentage]
+color_000 = "BrightBlue"
+color_025 = "Green"
+color_050 = "Yellow"
+color_075 = "Yellow"
+color_100 = "BrightRed"
+
+[style.by_state]
+color_d = "Yellow"
+color_r = "Green"
+color_s = "BrightCyan"
+color_t = "Cyan"
+color_z = "Red"
+color_x = "Red"
+color_k = "Yellow"
+color_w = "BrightBlack"
+color_p = "Black"
+
+[style.by_unit]
+color_k = "BrightCyan"
+color_m = "BrightBlue"
+color_g = "Yellow"
+color_t = "BrightRed"
+color_p = "BrightRed"
+color_x = "Blue"
